@@ -6,3 +6,7 @@ background-color: rgb(79, 85, 193);
     height: 100px;
     width: 200px;
 }
+
+.borderFormConnexion {
+    border-radius: 40px;
+}

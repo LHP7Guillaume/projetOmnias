@@ -23,7 +23,7 @@
     <!-- header -->
     <header>
 
-        <form class="container col-5 mt-5" style="background-color: white;">
+        <form class="container col-5 mt-5 borderFormConnexion" style="background-color: white;">
             <div>
                 <img class="logoOmniasConnexion mt-3" src="../assets/img/OmniasLogo.png" alt="Logo Entreprise Omnias">
             </div>
