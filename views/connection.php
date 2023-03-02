@@ -28,9 +28,19 @@
                 <img class="logoOmniasConnexion mt-3" src="../assets/img/OmniasLogo.png" alt="Logo Entreprise Omnias">
             </div>
             <div class="container col-6">
-               
+                <div class="mb-3 text-center mt-3 pb-3">
+                    <label for="exampleInputEmail1" class="form-label pb-3">Adresse Mail</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                </div>
+                <div class="mb-3 mt-2 text-center">
+                    <label for="exampleInputPassword1" class="form-label pb-3">Mot de passe</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+                <div class="text-end mt-5 ">
+                    <a type="submit" href="home.php" class="btn btn-outline-secondary">Valider</a>
+                </div>
                 <div class="text-center mt-5 pb-5">
-                    <a style="color: black; text-decoration: none;" class="btn btn-outline-danger" href="">Deconnexion</a>
+                    <a style="color: black; text-decoration: none;" href="">Mot de passe oublié</a>
                 </div>
             </div>
         </form>
@@ -39,10 +49,10 @@
     <footer class="position-absolute bottom-0 start-50 translate-middle-x mb-3">
         <div class="row">
             <div class="col-auto">
-                <a style="color: black; text-decoration: none;" href=""></a>
+                <a style="color: black; text-decoration: none;" href="">Nous contacter</a>
             </div>
             <div class="col">
-                <p></p>
+                <p>Omnias 2023</p>
             </div>
         </div>
     </footer>
