@@ -10,3 +10,8 @@ background-color: rgb(211, 151, 78);
 .borderFormConnexion {
     border-radius: 40px;
 }
+
+.myButton{
+    height: 215px;
+    width: 215px;
+}
