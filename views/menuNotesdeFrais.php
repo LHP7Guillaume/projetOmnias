@@ -33,8 +33,8 @@
 
                 <div class="row text-center g-4">
                     <div>
-                        <a class="myButton m-2 col-lg-4 btn btn-outline-secondary fs-3" href="">Pointage</a>
-                        <a class="myButton m-5 col-lg-4 btn btn-outline-secondary fs-3" href="menuNotesdeFrais.php">Note de frais</a>
+                        <a class="myButton m-2 col-lg-4 btn btn-outline-secondary fs-3" href="centralisationAnneeNotes.php">Mes notes</a>
+                        <a class="myButton m-5 col-lg-4 btn btn-outline-secondary fs-3" href="nouvelleNoteDeFrais.php">Nouvelle Note</a>
 
                     </div>
 
