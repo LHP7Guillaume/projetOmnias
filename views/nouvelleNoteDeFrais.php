@@ -24,17 +24,78 @@
     <header>
 
         <div class="container col-8 mt-5 borderFormConnexion" style="background-color: white;">
-        <div>
+            <div>
                 <img class="logoOmniasConnexion mt-3" src="../assets/img/OmniasLogo.png" alt="Logo Entreprise Omnias">
                 <a class="justify-content-end m-2 col-lg-7 btn btn-outline-secondary fs-3" href="">Nouvelle notes de frais</a>
                 <a class="justify-content-end m-2 col-lg-2 btn btn-outline-secondary fs-3" href="">Mon compte</a>
             </div>
-            <div class="container col-6">
+            <div class="">
 
 
                 <div class="row text-center g-4">
                     <div>
-                        a faire
+                        <form class="">
+                            <div class="row text-center mt-5">
+                                <div class="col">
+                                    <input type="text" class="form-control col-6" placeholder="Date de la note de frais" aria-label="Last name" disabled>
+                                </div>
+                                <div class="col">
+                                    <input type="date" class="form-control col-6" placeholder="Prénom" aria-label="Last name">
+                                </div>
+                            </div>
+
+                            <div class="row text-center mt-5">
+                                <div class="col">
+                                    <input type="text" class="form-control col-6" placeholder="Nom du Projet" aria-label="Last name" disabled>
+                                </div>
+                                <div class="col">
+                                    <input type="text" class="form-control col-6" placeholder="Projet" aria-label="Last name">
+                                </div>
+                            </div>
+
+                            <div class="row text-center mt-5">
+                                <div class="col">
+                                    <input type="text" class="form-control col-6" placeholder="Déplacement chez le " aria-label="Last name" disabled>
+                                </div>
+                                <div class="btn-group col" role="group" aria-label="Basic radio toggle button group">
+                                    <input type="radio" class="btn-check col-3" name="btnradio" id="btnradio1" autocomplete="off" checked>
+                                    <label class="btn btn-outline-secondary" for="btnradio1">Client</label>
+
+                                    <input type="radio" class="btn-check col-3" name="btnradio" id="btnradio2" autocomplete="off">
+                                    <label class="btn btn-outline-secondary" for="btnradio2">Client Final</label>
+                                </div>
+
+
+                                <div class="row mt-5">
+                                    <div class="col">
+                                        <input type="text" class="form-control col-6" placeholder="Nature de la note de frais" aria-label="Last name" disabled>
+
+                                    </div>
+                                    <div class="col">
+                                        <input class="form-control col-6" list="datalistOptions" id="exampleDataList" placeholder="liste des frais">
+                                        <datalist id="datalistOptions">
+                                            <option value="Carburant">
+                                            <option value="nombre de kilometre">
+                                            <option value="peage">
+                                            <option value="parking">
+                                            <option value="dejeuner">
+                                            <option value="petit dejeuner">
+                                            <option value="diner">
+                                            <option value="logement">
+
+                                                </select>
+                                    </div>
+                                </div>
+
+                                <div class="col mt-3">
+                                    <label for="formFile" class="form-label"></label>
+                                    <input class="form-control" type="file" id="formFile">
+                                </div>
+
+                                <div class="row mt-5 justify-content-center ">
+                                    <button type="submit" class="col-3 btn btn-secondary">Submit</button>
+                                </div>
+                        </form>
                     </div>
 
                 </div>
