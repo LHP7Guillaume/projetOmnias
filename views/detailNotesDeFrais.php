@@ -24,17 +24,35 @@
     <header>
 
         <div class="container col-8 mt-5 borderFormConnexion" style="background-color: white;">
-        <div>
+            <div>
                 <img class="logoOmniasConnexion mt-3" src="../assets/img/OmniasLogo.png" alt="Logo Entreprise Omnias">
                 <a class="justify-content-end m-2 col-lg-7 btn btn-outline-secondary fs-3" href="">Mes notes de frais</a>
                 <a class="justify-content-end m-2 col-lg-2 btn btn-outline-secondary fs-3" href="">Mon compte</a>
             </div>
-            <div class="container col-6">
+            <div class="container ">
 
 
                 <div class="row text-center g-4">
-                    <div>
-                        a faire
+
+                    <div class="row justify-content-center g-0">
+                        <article class="card mb-3 mt-5 mywidthCard ps-lg-3 pt-3 pb-3">
+                            <div class="row g-0 justify-content-center">
+
+                                
+                                    <div class="row justify-content-center">
+                                        <h3 class="fs-4 titleCard btn btn-outline-secondary col m-1">nom de la note de frais</h3>
+                                        <p class="col btn btn-outline-secondary m-1">date</p>
+                                        <p class="truncate mb-3 col btn btn-outline-secondary m-1">montant</p>
+                                        <p class="truncate mb-3 col btn btn-outline-secondary m-1">en traitement / validé</p>
+                                        
+                                        <p class="truncate mb-3 btn btn-outline-secondary col m-1">modifiable / non modif</p>
+                                
+                                        <a href="" class="btn blueButton col btn-outline-secondary m-1">Plus d'info</a>
+                                    </div>
+                                
+                            </div>
+                        </article>
+
                     </div>
 
                 </div>
