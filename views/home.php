@@ -27,6 +27,8 @@
             <div>
                 <img class="logoOmniasConnexion mt-3" src="../assets/img/OmniasLogo.png" alt="Logo Entreprise Omnias">
                 <a class="justify-content-end m-2 col-lg-2 btn btn-outline-secondary fs-3" href="">Mon compte</a>
+
+                <a class="justify-content-end m-2 col-lg-2 btn btn-outline-secondary fs-3" href="rhAjoutCollaborateur.php">Ajout collaborateur</a>
             </div>
             <div class="container col-6">
 
