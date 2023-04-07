@@ -25,30 +25,35 @@
 
         <div class="container col-8 mt-5 borderFormConnexion" style="background-color: white;">
             <div>
-                <a href="home.php">
-                    <img class="logoOmniasConnexion mt-3" src="../assets/img/OmniasLogo.png" alt="Logo Entreprise Omnias">
+            <a  href="home.php">
+                <img class="logoOmniasConnexion mt-3" src="../assets/img/OmniasLogo.png" alt="Logo Entreprise Omnias">
                 </a>
+                <a class="justify-content-end m-2 col-lg-7 btn btn-outline-secondary fs-3" href="">Mes notes de frais</a>
                 <a class="justify-content-end m-2 col-lg-2 btn btn-outline-secondary fs-3" href="">Mon compte</a>
             </div>
             <div class="container col-6">
-
+            </div>
+            <div class="mt-5">
 
                 <div class="row text-center g-4">
-                    <div class="">
-                        <a class="myButton m-2 col-lg-4 btn btn-outline-secondary fs-3" href="RHCentralisationAnneeNotes.php">Demandes en cours</a>
-                    </div>
-                    <div>
-                        <a class="myButton m-5 col-lg-4 btn btn-outline-secondary fs-3" href="RHListeNoteValide.php">Notes Validés</a>
-                    </div>
+                    <table class="table">
+
+                        <div class="card w-80">
+                            <div class="card-body">
+                                <h5 class="card-title">Date + année</h5>
+
+                                <a href="RHDetailNoteValide.php" class="btn btn-primary">Détail</a>
+                            </div>
+                        </div>·
+                    </table>
+
                 </div>
 
-            </div>
 
-
-            <div class="text-center mt-5 pb-5">
-                <a style="color: black; text-decoration: none;" class="btn btn-outline-danger" href="">Deconnexion</a>
+                <div class="text-center mt-5 pb-5">
+                    <a style="color: black; text-decoration: none;" class="btn btn-outline-danger" href="">Deconnexion</a>
+                </div>
             </div>
-        </div>
         </div>
     </header>
     <!-- footer -->
