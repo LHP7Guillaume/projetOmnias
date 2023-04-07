@@ -25,7 +25,9 @@
 
         <div class="container col-8 mt-5 borderFormConnexion" style="background-color: white;">
             <div>
+            <a  href="home.php">
                 <img class="logoOmniasConnexion mt-3" src="../assets/img/OmniasLogo.png" alt="Logo Entreprise Omnias">
+                </a>
                 <a class="justify-content-end m-2 col-lg-7 btn btn-outline-secondary fs-3" href="">Mes notes de frais</a>
                 <a class="justify-content-end m-2 col-lg-2 btn btn-outline-secondary fs-3" href="">Mon compte</a>
             </div>
