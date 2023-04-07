@@ -25,8 +25,8 @@
 
         <div class="container col-8 mt-5 borderFormConnexion" style="background-color: white;">
             <div>
-            <a  href="home.php">
-                <img class="logoOmniasConnexion mt-3" src="../assets/img/OmniasLogo.png" alt="Logo Entreprise Omnias">
+                <a href="home.php">
+                    <img class="logoOmniasConnexion mt-3" src="../assets/img/OmniasLogo.png" alt="Logo Entreprise Omnias">
                 </a>
                 <a class="justify-content-end m-2 col-lg-7 btn btn-outline-secondary fs-3" href="">Mes notes de frais</a>
                 <a class="justify-content-end m-2 col-lg-2 btn btn-outline-secondary fs-3" href="">Mon compte</a>
@@ -36,16 +36,32 @@
             <div class="mt-5">
 
                 <div class="row text-center g-4">
-                    <table class="table">
+                    <ul class="">
 
-                        <div class="card w-80">
-                            <div class="card-body">
-                                <h5 class="card-title">Date + année</h5>
+                        <li class="card w-80 m-2">
+                            <div class="card-body justify-content-between row">
+                                <h5 class="card-title col-3">Janvier 2023</h5>
 
-                                <a href="detailNotesDeFrais.php" class="btn btn-primary">Détail</a>
+                                <a href="detailNotesDeFrais.php" class="btn btn-primary col-3">Détail</a>
                             </div>
-                        </div>·
-                    </table>
+                        </li>
+
+                        <li class="card w-80 m-2">
+                            <div class="card-body justify-content-between row">
+                                <h5 class="card-title col-3">Fevrier 2023</h5>
+
+                                <a href="detailNotesDeFrais.php" class="btn btn-primary col-3">Détail</a>
+                            </div>
+                        </li>
+
+                        <li class="card w-80 m-2">
+                            <div class="card-body justify-content-between row">
+                                <h5 class="card-title col-3">Mars 2023</h5>
+
+                                <a href="detailNotesDeFrais.php" class="btn btn-primary col-3">Détail</a>
+                            </div>
+                        </li>
+                    </ul>
 
                 </div>
 

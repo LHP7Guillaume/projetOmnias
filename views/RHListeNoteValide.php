@@ -35,20 +35,35 @@
             </div>
             <div class="mt-5">
 
-                <div class="row text-center g-4">
-                    <table class="table">
+            <div class="row text-center g-4">
+                    <ul class="">
 
-                        <div class="card w-80">
-                            <div class="card-body">
-                                <h5 class="card-title">Date + année</h5>
+                        <li class="card w-80 m-2">
+                            <div class="card-body justify-content-between row">
+                                <h5 class="card-title col-3">Janvier 2023</h5>
 
-                                <a href="RHDetailNoteValide.php" class="btn btn-primary">Détail</a>
+                                <a href="detailNotesDeFrais.php" class="btn btn-primary col-3">Détail</a>
                             </div>
-                        </div>·
-                    </table>
+                        </li>
+
+                        <li class="card w-80 m-2">
+                            <div class="card-body justify-content-between row">
+                                <h5 class="card-title col-3">Fevrier 2023</h5>
+
+                                <a href="detailNotesDeFrais.php" class="btn btn-primary col-3">Détail</a>
+                            </div>
+                        </li>
+
+                        <li class="card w-80 m-2">
+                            <div class="card-body justify-content-between row">
+                                <h5 class="card-title col-3">Mars 2023</h5>
+
+                                <a href="detailNotesDeFrais.php" class="btn btn-primary col-3">Détail</a>
+                            </div>
+                        </li>
+                    </ul>
 
                 </div>
-
 
                 <div class="text-center mt-5 pb-5">
                     <a style="color: black; text-decoration: none;" class="btn btn-outline-danger" href="">Deconnexion</a>

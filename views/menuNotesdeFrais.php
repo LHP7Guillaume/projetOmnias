@@ -30,16 +30,16 @@
                 </a>
                 <a class="justify-content-end m-2 col-lg-2 btn btn-outline-secondary fs-3" href="">Mon compte</a>
             </div>
-            <div class="container col-6">
+            <div class="container mt-5">
 
 
                 <div class="row text-center g-4">
-                    <div>
-                        <a class="myButton m-2 col-lg-4 btn btn-outline-secondary fs-3" href="centralisationAnneeNotes.php">Mes notes</a>
-                        <a class="myButton m-5 col-lg-4 btn btn-outline-secondary fs-3" href="nouvelleNoteDeFrais.php">Nouvelle Note</a>
-
+                    <div class="col">
+                        <a class="myButton btn btn-outline-secondary fs-3" href="centralisationAnneeNotes.php">Mes notes</a>
                     </div>
-
+                    <div class="col">
+                        <a class="myButton btn btn-outline-secondary fs-3" href="nouvelleNoteDeFrais.php">Nouvelle Note</a>
+                    </div>
                 </div>
 
 
