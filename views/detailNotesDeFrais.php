@@ -35,14 +35,63 @@
             <div class="mt-5">
 
                 <div class="">
+                    
+                    <ul class="">
+                    <H1 class="text-center">MARS 2023</H1>
+                        <li class="card w-80">
+                            <div class="card-body justify-content-between row">
+                                <p class="titleCard btn btn-outline-secondary col">repas</p>
+                                <p class="col btn btn-outline-secondary">24/03/2023</p>
+                                <p class="truncate col btn btn-outline-secondary">15 euros</p>
+                                <p class="truncate col btn btn-outline-secondary">validé</p>
+                                <p class="truncate btn btn-outline-secondary col">non modif</p>
+                                <a href="plusDinfoDetailNotesDeFrais.php" class="col btn btn-outline-secondary">Plus d'info</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="">
                     <ul class="">
                         <li class="card w-80">
                             <div class="card-body justify-content-between row">
-                                <p class="fs-4 titleCard btn btn-outline-secondary col">nom de la note de frais</p>
-                                <p class="col btn btn-outline-secondary">date</p>
-                                <p class="truncate col btn btn-outline-secondary">montant</p>
-                                <p class="truncate col btn btn-outline-secondary">en traitement / validé</p>
-                                <p class="truncate btn btn-outline-secondary col">modifiable / non modif</p>
+                                <p class="titleCard btn btn-outline-secondary col">trajets</p>
+                                <p class="col btn btn-outline-secondary">28/03/2023</p>
+                                <p class="truncate col btn btn-outline-secondary">10 euros</p>
+                                <p class="truncate col btn btn-outline-secondary">en traitement</p>
+                                <p class="truncate btn btn-outline-secondary col">modifiable</p>
+                                <a href="" class="col btn btn-outline-secondary">Plus d'info</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+
+                <div class="">
+                    <ul class="">
+                        <li class="card w-80">
+                            <div class="card-body justify-content-between row">
+                                <p class="titleCard btn btn-outline-secondary col">parking</p>
+                                <p class="col btn btn-outline-secondary">27/03/2023</p>
+                                <p class="truncate col btn btn-outline-secondary">18 euros</p>
+                                <p class="truncate col btn btn-outline-secondary">en traitement</p>
+                                <p class="truncate btn btn-outline-secondary col">modifiable</p>
+                                <a href="" class="col btn btn-outline-secondary">Plus d'info</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+
+                <div class="">
+                    <ul class="">
+                        <li class="card w-80">
+                            <div class="card-body justify-content-between row">
+                                <p class="titleCard btn btn-outline-secondary col">repas</p>
+                                <p class="col btn btn-outline-secondary">29/03/2023</p>
+                                <p class="truncate col btn btn-outline-secondary">19 euros</p>
+                                <p class="truncate col btn btn-outline-secondary">validé</p>
+                                <p class="truncate btn btn-outline-secondary col">non modif</p>
                                 <a href="" class="col btn btn-outline-secondary">Plus d'info</a>
                             </div>
                         </li>
