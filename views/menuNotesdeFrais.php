@@ -42,6 +42,10 @@
                     <div class="col">
                         <a class="myButton btn btn-outline-secondary fs-3" href="nouvelleNoteDeFrais.php">Nouvelle Note</a>
                     </div>
+                    <div class="col">
+                        <a class="myButton btn btn-outline-danger fs-3" href="RHmenuNotedeFrais.php">menu RH note de frais, pour acceder en vue. ok Alex?</a>
+                    </div>
+                    
                 </div>
 
 

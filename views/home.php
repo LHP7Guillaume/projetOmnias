@@ -31,7 +31,7 @@
                
                 <a class="justify-content-end m-2 col-lg-2 btn btn-outline-secondary fs-3" href="">Mon compte</a>
 
-                <a class="justify-content-end m-2 col-lg-2 btn btn-outline-secondary fs-4" href="rhAjoutCollaborateur.php">Ajout collaborateur</a>
+                <a class="justify-content-end m-2 col-lg-2 btn btn-outline-secondary fs-4" href="rhAjoutCollaborateur.php">Ajout collaborateur (RH)</a>
             </div>
             <div class="container mt-5">
 
