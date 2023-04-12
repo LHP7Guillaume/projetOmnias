@@ -29,7 +29,7 @@
                 <img class="logoOmniasConnexion mt-3" src="../assets/img/OmniasLogo.png" alt="Logo Entreprise Omnias">
                 </a>
                 <a class="justify-content-end m-2 col-lg-7 btn btn-outline-secondary fs-3" href="">Mes notes de frais</a>
-                <a class="justify-content-end m-2 col-lg-2 btn btn-outline-secondary fs-3" href="">Mon compte</a>
+                <a class="justify-content-end m-2 col-lg-2 btn btn-outline-secondary fs-3" href="monCompte.php">Mon compte</a>
             </div>
             <div class="container ">
 

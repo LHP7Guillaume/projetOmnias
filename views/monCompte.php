@@ -28,10 +28,11 @@
                 <a  href="home.php">
                 <img class="logoOmniasConnexion mt-3" src="../assets/img/OmniasLogo.png" alt="Logo Entreprise Omnias">
                 </a>
-                <a class="justify-content-end m-2 col-lg-7 btn btn-outline-secondary fs-3" href="">Ajout collaborateur</a>
-                <a class="justify-content-end m-2 col-lg-2 btn btn-outline-secondary fs-3" href="monCompte.php">Mon compte</a>
+                <H1 class="justify-content-end m-2 col-lg-7 btn btn-outline-secondary fs-3" href="">Mon compte</H1>
+                
             </div>
             <form class="">
+                <h1>Je pensais mettre mon compte en monde desabled pour avoir les info????</h1>
                 <div class="text-center">
                     <a class="m-2 col-lg-7 btn btn-outline-secondary fs-3" href="">Identité</a>
                 </div>
@@ -40,7 +41,7 @@
                         <h1 class="form-control col-6">Prénom</h1>
                     </div>
                     <div class="col">
-                        <input type="text" class="form-control col-6" placeholder="Jean" aria-label="Last name">
+                        <input type="text" class="form-control col-6" placeholder="Jean" aria-label="Prénom" disabled>
                     </div>
                 </div>
 
@@ -49,7 +50,7 @@
                     <h1 class="form-control col-6">Nom</h1>
                     </div>
                     <div class="col">
-                        <input type="text" class="form-control col-6" placeholder="Dusjardin" aria-label="Last name">
+                        <input type="text" class="form-control col-6" placeholder="Dusjardin" aria-label="Nom" disabled>
                     </div>
                 </div>
 
@@ -58,7 +59,7 @@
                     <h1 class="form-control col-6">Adresse mail</h1>
                     </div>
                     <div class="col">
-                        <input type="email" class="form-control col-6" placeholder="jeandusjardin@gmail.com" aria-label="Last name">
+                        <input type="email" class="form-control col-6" placeholder="jeandusjardin@gmail.com" aria-label="Adresse mail" disabled>
                     </div>
                 </div>
 
@@ -67,7 +68,7 @@
                     <h1 class="form-control col-6">Mot de passe</h1>
                     </div>
                     <div class="col">
-                        <input type="text" class="form-control col-6" placeholder="123soleilestunmauvaismotdepasse" aria-label="Last name">
+                        <input type="text" class="form-control col-6" placeholder="123soleilestunmauvaismotdepasse" aria-label="Mot de passe" disabled>
                     </div>
                 </div>
 
@@ -76,7 +77,7 @@
                     <h1 class="form-control col-6">Confirmer mot de passe</h1>
                     </div>
                     <div class="col">
-                        <input type="text" class="form-control col-6" placeholder="123soleilestunmauvaismotdepasse" aria-label="Last name">
+                        <input type="text" class="form-control col-6" placeholder="123soleilestunmauvaismotdepasse" aria-label="Confirmer mot de passe" disabled>
                     </div>
                 </div>
 
@@ -91,7 +92,7 @@
                 <h1 class="form-control col-6">Véhicule</h1>
                 </div>
                 <div class="col">
-                    <input type="text" class="form-control col-6" placeholder="Fiat Panda" aria-label="Last name">
+                    <input type="text" class="form-control col-6" placeholder="Fiat Panda" aria-label="Véhicule" disabled>
                 </div>
             </div>
 
@@ -100,7 +101,7 @@
                 <h1 class="form-control col-6">Immatriculation</h1>
                 </div>
                 <div class="col">
-                    <input type="text" class="form-control col-6" placeholder="CEXXXUJ" aria-label="Last name">
+                    <input type="text" class="form-control col-6" placeholder="CEXXXUJ" aria-label="Immatriculation" disabled>
                 </div>
             </div>
 
@@ -109,7 +110,7 @@
                 <h1 class="form-control col-6">Barème kilométrique</h1>
                 </div>
                 <div class="col">
-                    <input type="text" class="form-control col-6" placeholder="Montant" aria-label="Last name">
+                    <input type="text" class="form-control col-6" placeholder="Montant" aria-label="Montant" disabled>
                 </div>
             </div>
 
