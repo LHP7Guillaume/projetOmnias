@@ -31,7 +31,7 @@
                 <a class="justify-content-end m-2 col-lg-7 btn btn-outline-secondary fs-3" href="">Ajout collaborateur</a>
                 <a class="justify-content-end m-2 col-lg-2 btn btn-outline-secondary fs-3" href="">Mon compte</a>
             </div>
-            <div class="">
+            <form class="">
                 <div class="text-center">
                     <a class="m-2 col-lg-7 btn btn-outline-secondary fs-3" href="">Identité</a>
                 </div>
@@ -55,6 +55,15 @@
 
                 <div class="row text-center mt-5">
                     <div class="col">
+                        <input type="text" class="form-control col-6" placeholder="Adresse Email" aria-label="Last name" disabled>
+                    </div>
+                    <div class="col">
+                        <input type="email" class="form-control col-6" placeholder="Email" aria-label="Last name">
+                    </div>
+                </div>
+
+                <div class="row text-center mt-5">
+                    <div class="col">
                         <input type="text" class="form-control col-6" placeholder="Mot de passe" aria-label="Last name" disabled>
                     </div>
                     <div class="col">
@@ -71,7 +80,7 @@
                     </div>
                 </div>
 
-            </div>
+            </form>
 
             <div class="text-center">
                 <a class="mt-4 col-lg-7 btn btn-outline-secondary fs-3" href="">Véhicule</a>
@@ -110,7 +119,7 @@
 
 
             <div class="text-center mt-5 pb-5">
-                <a style="color: black; text-decoration: none;" class="btn btn-outline-danger" href="">Deconnexion</a>
+                <a style="color: black; text-decoration: none;" class="btn btn-outline-danger" href="connection.php">Deconnexion</a>
             </div>
         </div>
         </div>

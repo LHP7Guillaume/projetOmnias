@@ -66,7 +66,7 @@
                 </div>
 
                 <div class="text-center mt-5 pb-5">
-                    <a style="color: black; text-decoration: none;" class="btn btn-outline-danger" href="">Deconnexion</a>
+                    <a style="color: black; text-decoration: none;" class="btn btn-outline-danger" href="connection.php">Deconnexion</a>
                 </div>
             </div>
         </div>

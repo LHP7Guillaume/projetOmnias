@@ -23,7 +23,11 @@
     <!-- header -->
     <header>
 
+        
+
         <div class="container col-8 mt-5 borderFormConnexion" style="background-color: white;">
+
+        
             <div>
                 <a href="home.php">
                     <img class="logoOmniasConnexion mt-3" src="../assets/img/OmniasLogo.png" alt="Logo Entreprise Omnias">
@@ -34,10 +38,54 @@
 
             <div class="mt-5">
 
+
+            <table class="table table-striped">
+            <H1 class="text-center">MARS 2023</H1>
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Nature</th>
+                    <th scope="col">Date</th>
+                    <th scope="col">Montant</th>
+                    <th scope="col">Statut</th>
+                    <th scope="col">Modifier</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>Repas</td>
+                    <td>20/04/2023</td>
+                    <td>15 euros</td>
+                    <td>Validé</td>
+                   
+                    <td class="btn">Voir</td>
+                </tr>
+                <tr>
+                <th scope="row">2</th>
+                <td>Péage</td>
+                    <td>22/04/2023</td>
+                    <td>10 euros</td>
+                    <td>Non validé</td>
+                  
+                    <td class="btn">Voir</td>
+                </tr>
+                <tr>
+                <th scope="row">3</th>
+                <td>Repas</td>
+                    <td>25/04/2023</td>
+                    <td>20 euros</td>
+                    <td>Non validé</td>
+                  
+                    <td class="btn">Voir</td>
+                </tr>
+            </tbody>
+        </table>
+
                 <div class="">
-                    
+
                     <ul class="">
-                    <H1 class="text-center">MARS 2023</H1>
+                        <H1 class="text-center">MARS 2023</H1>
                         <li class="card w-80">
                             <div class="card-body justify-content-between row">
                                 <p class="titleCard btn btn-outline-secondary col">repas</p>
@@ -98,31 +146,15 @@
                     </ul>
                 </div>
 
-                <div class="container ">
-                    <div class="row text-center g-4">
-                        <div class="row justify-content-center g-0">
-                            <article class="card mb-3 mt-5 mywidthCard ps-lg-3 pt-3 pb-3">
-                                <div class="row g-0 justify-content-center">
-                                    <div class="row justify-content-center">
-                                        <h3 class="fs-4 titleCard btn btn-outline-secondary col m-1">nom de la note de frais</h3>
-                                        <p class="col btn btn-outline-secondary m-1">date</p>
-                                        <p class="truncate mb-3 col btn btn-outline-secondary m-1">montant</p>
-                                        <p class="truncate mb-3 col btn btn-outline-secondary m-1">en traitement / validé</p>
-                                        <p class="truncate mb-3 btn btn-outline-secondary col m-1">modifiable / non modif</p>
-                                        <a href="" class="btn blueButton col btn-outline-secondary m-1">Plus d'info</a>
-                                    </div>
-                                </div>
-                            </article>
-                        </div>
-                    </div>
 
 
-                    <div class="text-center mt-5 pb-5">
-                        <a style="color: black; text-decoration: none;" class="btn btn-outline-danger" href="">Deconnexion</a>
-                    </div>
+
+                <div class="text-center mt-5 pb-5">
+                    <a style="color: black; text-decoration: none;" class="btn btn-outline-danger" href="connection.php">Deconnexion</a>
                 </div>
-
             </div>
+
+        </div>
     </header>
     <!-- footer -->
     <footer class="position-absolute bottom-0 start-50 translate-middle-x mb-3">
